@@ -10,6 +10,11 @@ body {
 .top {
   padding-top: 24px;
   padding-bottom: 25px;
+  border-bottom: 1px solid #ececec;
+}
+.top-container {
+  display: flex;
+  align-items: center;
 }
 .top-logo {
   font-family: 'Raleway', sans-serif;
@@ -20,6 +25,7 @@ body {
   text-decoration-line: none;
   margin-top: 0;
   margin-bottom: 0;
+  margin-right: 93px;
 }
 .logo-blue {
   color: #2196f3;
@@ -29,6 +35,10 @@ body {
   margin-top: 0;
   margin-bottom: 0;
   padding: 0;
+  display: flex;
+  width: 261px;
+  justify-content: space-between;
+  margin-right: 401px;
 }
 .nav-item {
   text-decoration-line: none;
@@ -47,6 +57,10 @@ body {
   margin-top: 0;
   margin-bottom: 0;
   padding: 0;
+  display: flex;
+  margin-right: 0;
+  width: 295px;
+  justify-content: space-between;
 }
 .top-contact-item {
   text-decoration-line: none;
@@ -109,7 +123,7 @@ body {
   letter-spacing: 0.03em;
   line-height: 1.1;
   margin-top: 0;
-  margin-bottom: 0;
+  margin-bottom: 10px;
 }
 .deskription {
   font-size: 14px;
@@ -223,8 +237,11 @@ body {
 .button-list {
   list-style: none;
   margin-top: 0;
-  margin-bottom: 50;
+  margin-bottom: 50px;
   padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 8px;
 }
 .button-item {
   font-weight: 500;
@@ -248,16 +265,20 @@ body {
   margin-top: 0;
   margin-bottom: 0;
   padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 45px;
 }
 .prestentation-item {
   margin: 0;
   border-bottom: 1px solid #eeeeee;
+  padding-bottom: 20px;
 }
 .title-portfoliopicture {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-  margin-top: 0;
+  margin-top: 20px;
   margin-bottom: 0;
 }
 .description-portfoliopicture {
@@ -265,6 +286,6 @@ body {
   line-height: 1.9;
   letter-spacing: 0.03em;
   color: #757575;
-  margin-top: 0;
+  margin-top: 4px;
   margin-bottom: 0;
 }
