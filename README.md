@@ -1,3 +1,3 @@
-# goit-markup-hw-01
+# goit-markup-hw-03
 
-https://astrix1234.github.io/goit-markup-hw-02/
+https://astrix1234.github.io/goit-markup-hw-03/
