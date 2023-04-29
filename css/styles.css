@@ -4,7 +4,6 @@ body {
 }
 .container {
   width: 1200px;
-  background-color: aqua;
   margin: 0 auto;
 }
 .top {
@@ -115,8 +114,10 @@ body {
 .descriptions-list {
   list-style: none;
   margin-top: 0;
-  margin-bottom: 94px;
+  margin-bottom: 0;
   padding: 0;
+  display: flex;
+  gap: 40px;
 }
 .description-title {
   font-size: 14px;
@@ -138,7 +139,7 @@ body {
   letter-spacing: 0.03em;
   text-align: center;
   line-height: 1.2;
-  margin-top: 0;
+  margin-top: 94px;
   margin-bottom: 50;
 }
 .occupation-list {
@@ -146,6 +147,8 @@ body {
   margin-top: 0;
   margin-bottom: 0;
   padding: 0;
+  display: flex;
+  gap: 45px;
 }
 .picture {
   display: block;
@@ -166,6 +169,8 @@ body {
   margin-top: 0;
   margin-bottom: 0;
   padding: 0;
+  display: flex;
+  gap: 40px;
 }
 .team-item {
   background-color: #ffffff;
@@ -182,6 +187,7 @@ body {
   line-height: 1.2;
   margin-top: 30px;
   margin-bottom: 0px;
+  text-align: center;
 }
 .team-position {
   font-size: 16px;
@@ -190,6 +196,7 @@ body {
   color: #757575;
   margin-top: 10px;
   margin-bottom: 0;
+  text-align: center;
 }
 .bottom {
   background: #2f303a;
