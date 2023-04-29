@@ -37,7 +37,6 @@ body {
   display: flex;
   width: 261px;
   justify-content: space-between;
-  margin-right: 401px;
 }
 .nav-item {
   text-decoration-line: none;
@@ -60,6 +59,7 @@ body {
   margin-right: 0;
   width: 295px;
   justify-content: space-between;
+  margin-left: auto;
 }
 .top-contact-item {
   text-decoration-line: none;
